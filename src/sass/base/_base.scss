@@ -26,8 +26,8 @@ html {
 
 body {
   box-sizing: border-box; /* padding and borders not added to width x height of element */
+  color: $rose-900;
   background-color: $rose-100;
-  font-size: 1.6rem;
   padding: 3rem;
 
   @include respond(tab-port) {
